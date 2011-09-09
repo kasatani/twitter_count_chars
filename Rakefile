@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "twitter_count_chars"
   gem.homepage = "http://github.com/kasatani/twitter_count_chars"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Counts number of characters before posting statuses to Twitter}
+  gem.description = %Q{Counts number of characters before posting statuses to Twitter}
   gem.email = "kasatani@gmail.com"
   gem.authors = ["Shinya Kasatani"]
   # dependencies defined in Gemfile

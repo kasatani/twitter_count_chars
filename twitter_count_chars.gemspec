@@ -8,9 +8,9 @@ Gem::Specification.new do |s|
   s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Shinya Kasatani"]
+  s.authors = [%q{Shinya Kasatani}]
   s.date = %q{2011-09-09}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Counts number of characters before posting statuses to Twitter}
   s.email = %q{kasatani@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -27,13 +27,14 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/twitter_count_chars.rb",
     "spec/spec_helper.rb",
-    "spec/twitter_count_chars_spec.rb"
+    "spec/twitter_count_chars_spec.rb",
+    "twitter_count_chars.gemspec"
   ]
   s.homepage = %q{http://github.com/kasatani/twitter_count_chars}
-  s.licenses = ["MIT"]
-  s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.6.2}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.licenses = [%q{MIT}]
+  s.require_paths = [%q{lib}]
+  s.rubygems_version = %q{1.8.6}
+  s.summary = %q{Counts number of characters before posting statuses to Twitter}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
