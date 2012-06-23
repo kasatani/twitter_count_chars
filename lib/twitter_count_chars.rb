@@ -11,7 +11,7 @@ module TwitterCountChars
   CONFIG_UPDATE_INTERVAL = 60 * 60 * 24
 
   def twitter_config_cache
-    "#{Dir.tmpdir}/twitter_count_chars_config"
+    File.expand_path('~/.twitter_count_chars_config')
   end
 
   def update_twitter_config(force = false)
