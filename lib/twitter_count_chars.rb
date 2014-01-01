@@ -40,11 +40,13 @@ module TwitterCountChars
   end
 
   def short_url_length
-    twitter_config["short_url_length"]
+    #twitter_config["short_url_length"]
+    22
   end
 
   def short_url_length_https
-    twitter_config["short_url_length_https"]
+    #twitter_config["short_url_length_https"]
+    23
   end
 
   def length(text)
